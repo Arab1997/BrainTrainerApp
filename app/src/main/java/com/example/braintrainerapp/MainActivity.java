@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 process.setVisibility(View.INVISIBLE);
 
                 end = findViewById(R.id.end);
-                end.setText("YOUR SCORE IS " + Integer.toString(correctAnswers) + "\n" + " again? Press GO!");
+                end.setText("ВАША ОЦЕНКА" + Integer.toString(correctAnswers) + "\n" + " опять? Нажмите кнопку GO!");
                 end.setVisibility(View.VISIBLE);
                 button.setVisibility(View.VISIBLE);
                 correctAnswers = 0;
